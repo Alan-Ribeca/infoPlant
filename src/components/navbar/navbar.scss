@@ -28,15 +28,20 @@
     .ulNavbar {
       width: 30%;
       justify-content: space-between;
-      font-weight: 500;
+      font-weight: 600;
     }
 
     .ulPerfil {
       width: 6%;
+
       justify-content: space-between;
 
       .liPerfil {
         width: 100%;
+
+        .logoPerson {
+          color: black;
+        }
       }
     }
   }

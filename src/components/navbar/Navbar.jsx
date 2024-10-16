@@ -15,8 +15,8 @@ export const Navbar = () => {
           <li className="liPerfil">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="21"
+              height="21"
               fill="currentColor"
               className="lupa"
               viewBox="0 0 16 16"
@@ -27,8 +27,8 @@ export const Navbar = () => {
           <li className="liPerfil">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="23"
-              height="23"
+              width="29"
+              height="29"
               fill="currentColor"
               className="logoPerson"
               viewBox="0 0 16 16"
