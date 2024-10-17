@@ -2,4 +2,46 @@
   min-height: 800px;
   height: 86vh;
   background-image: url("../../../public/img/fondoGris.jpg");
+  display: flex;
+  position: relative;
+  .containerImg {
+    margin-top: 5rem;
+    padding-left: 4rem;
+    .imgPrinci {
+      height: 600px;
+    }
+  }
+
+  .containerTitle {
+    position: relative;
+
+    .titleImpresa {
+      position: absolute;
+      top: 13%;
+      font-size: 12rem;
+      padding-left: 2rem;
+      color: rgb(150, 150, 150);
+      opacity: 0.1;
+      font-weight: 400;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .titleCursiva {
+      font-family: "Cinzel", serif;
+      position: absolute;
+      top: 27%;
+      padding-left: 11rem;
+      font-size: 4rem;
+      color: rgb(112, 102, 102);
+    }
+
+    .titlePrincipal {
+      font-family: "Cinzel", serif;
+      position: absolute;
+      top: 45%;
+      font-size: 5rem;
+      padding-left: 2rem;
+      color: rgb(112, 102, 102);
+    }
+  }
 }
