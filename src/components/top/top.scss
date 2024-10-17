@@ -1,23 +1,31 @@
 .top {
   min-height: 800px;
   height: 86vh;
-  background-image: url("../../../public/img/fondoGris.jpg");
+  background-image: url("../../../public/img/p44.jpg");
+  background-size: cover;
   display: flex;
   position: relative;
   .containerImg {
     margin-top: 5rem;
-    padding-left: 4rem;
+    position: relative;
+    width: 35%;
+
     .imgPrinci {
-      height: 600px;
+      height: 891px;
+      position: absolute;
+      bottom: 10%;
+      left: 14%;
     }
   }
 
   .containerTitle {
     position: relative;
+    width: 100%;
 
     .titleImpresa {
       position: absolute;
-      top: 13%;
+      top: 15%;
+      left: 51%;
       font-size: 12rem;
       padding-left: 2rem;
       color: rgb(150, 150, 150);
@@ -29,8 +37,8 @@
     .titleCursiva {
       font-family: "Cinzel", serif;
       position: absolute;
-      top: 27%;
-      padding-left: 11rem;
+      top: 31%;
+      left: 61%;
       font-size: 4rem;
       color: rgb(112, 102, 102);
     }
@@ -39,9 +47,31 @@
       font-family: "Cinzel", serif;
       position: absolute;
       top: 45%;
+      left: 53%;
       font-size: 5rem;
-      padding-left: 2rem;
       color: rgb(112, 102, 102);
+    }
+
+    .btn {
+      position: absolute;
+      top: 57%;
+      right: 29%;
+      width: 12rem;
+      height: 3.5rem;
+      border: none;
+      color: white;
+      font-weight: 700;
+      font-size: 15px;
+      font-family: "Cinzel", serif;
+      cursor: pointer;
+      transition: background 1s;
+      background: linear-gradient(90deg, #93a267 50%, rgb(121, 160, 63) 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+
+      &:hover {
+        background-position: left bottom;
+      }
     }
   }
 }

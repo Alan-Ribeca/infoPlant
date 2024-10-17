@@ -8,12 +8,12 @@ export const Navbar = () => {
   };
 
   const handleInputClick = (e) => {
-    e.stopPropagation(); // Detiene la propagación del evento clic
+    e.stopPropagation();
   };
 
   return (
     <navbar className="navbar">
-      <div className="containerNavbar">
+      <div data-aos="fade-right" className="containerNavbar">
         <img
           src="../public/img/logo.png"
           alt="logo de la web"
