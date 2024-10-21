@@ -33,7 +33,6 @@ export const Navbar = () => {
               width="21"
               height="21"
               fill="currentColor"
-              // className="lupa"
               className={buscador ? "lupaAbierta" : "lupa"}
               viewBox="0 0 16 16"
               onClick={toggleBuscador}
