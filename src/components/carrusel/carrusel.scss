@@ -21,18 +21,21 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 14%);
       -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 14%);
       -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 14%);
+      transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
       &.activo {
         width: 25%;
         height: 405px;
         box-shadow: 0 1px 20px 2px rgb(47 74 5 / 32%);
         -moz-box-shadow: 0 1px 20px 2px rgb(47 74 5 / 32%);
         -webkit-box-shadow: 0 1px 20px 2px rgb(47 74 5 / 32%);
+        transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
         .imgActiva {
           width: 460px;
           height: 550px;
           right: 28%;
           bottom: 0%;
           filter: drop-shadow(6px 6px 4px rgba(4, 12, 1, 0.32));
+          transition: width 0.5s ease, height 0.5s ease;
         }
 
         .info {
@@ -82,6 +85,10 @@
             }
           }
         }
+      }
+
+      &:last-child {
+        display: none;
       }
     }
   }

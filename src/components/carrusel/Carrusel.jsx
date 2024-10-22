@@ -1,6 +1,48 @@
 import "./carrusel.scss";
-
+import { useState } from "react";
 export const Carrusel = () => {
+  const [slides, setSlides] = useState([
+    {
+      id: 1,
+      src: "../public/img/c1.png",
+      alt: "Img Plamera areca",
+      p: "Plamera areca",
+    },
+    {
+      id: 2,
+      src: "../public/img/c2.png",
+      alt: "Img Cuna de moises",
+      p: "Cuna de moises",
+    },
+    {
+      id: 3,
+      src: "../public/img/c3.png",
+      alt: "Img Monstera adansoni",
+      p: "Mostera adansoni",
+    },
+    { id: 4, src: "../public/img/c4.png", alt: "Img Musa", p: "Musa" },
+    {
+      id: 5,
+      src: "../public/img/c5.png",
+      alt: "Img Palo de agua",
+      p: "Palo de agua",
+    },
+  ]);
+
+  const siguienteSlide = () => {
+    const newSlides = [...slides];
+    const primerElemento = newSlides.shift(); 
+    newSlides.push(primerElemento); 
+    setSlides(newSlides); 
+  };
+
+  const anteriorSlide = () => {
+    const newSlides = [...slides];
+    const ultimoElemento = newSlides.pop(); 
+    newSlides.unshift(ultimoElemento); 
+    setSlides(newSlides);
+  };
+
   return (
     <section className="containerCarrusel">
       <svg
@@ -10,6 +52,7 @@ export const Carrusel = () => {
         fill="currentColor"
         className="flechaIzquierda"
         viewBox="0 0 16 16"
+        onClick={anteriorSlide}
       >
         <path
           fillRule="evenodd"
@@ -17,57 +60,39 @@ export const Carrusel = () => {
         />
       </svg>
       <div className="carrusel">
-        <div className="slide activo">
-          <img
-            src="../public/img/c1.png"
-            alt="img de una plata"
-            className="imgActiva"
-          />
-          <div className="info">
-            <p className="name">Plamera areca</p>
-            <button className="btnCarrusel">
-              Ver Info{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="flechaBtn"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
-                />
-              </svg>
-            </button>
+        {slides.map((slide, index) => (
+          <div
+            key={slide.id}
+            className={`slide ${index === 0 ? "activo" : ""}`}
+          >
+            <img
+              src={slide.src}
+              alt={slide.alt}
+              className={`img ${index === 0 ? "imgActiva" : ""}`}
+            />
+            <div className="info">
+              <p className="name">{slide.p}</p>
+              {index === 0 ? (
+                <button className="btnCarrusel">
+                  Ver Info{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    className="flechaBtn"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+                    />
+                  </svg>
+                </button>
+              ) : null}
+            </div>
           </div>
-        </div>
-        <div className="slide">
-          <img src="../public/img/c2.png" alt="img de una plata" />
-          <div className="info">
-            <p className="name">Cuna de moises</p>
-          </div>
-        </div>
-        <div className="slide">
-          <img src="../public/img/c5.png" alt="img de una plata" />
-          <div className="info">
-            <p className="name">Monstera adansoni</p>
-          </div>
-        </div>
-        <div className="slide">
-          <img src="../public/img/c4.png" alt="img de una plata" />
-          <div className="info">
-            <p className="name musa">Musa</p>
-          </div>
-        </div>
-        {/* <div className="slide">
-          <img src="../public/img/c5.png" alt="img de una plata" />
-          <div className="info">
-            <p className="name">Palo de agua</p>
-            <button className="btnCarrusel">Ver Info</button>
-          </div>
-        </div> */}
+        ))}
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -76,6 +101,7 @@ export const Carrusel = () => {
         fill="currentColor"
         className="flechaDerecha"
         viewBox="0 0 16 16"
+        onClick={siguienteSlide}
       >
         <path
           fillRule="evenodd"
