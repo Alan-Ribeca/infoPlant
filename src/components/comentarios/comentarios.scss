@@ -1,0 +1,71 @@
+.containerComentarios {
+  background-image: url("../../../public/img/imgComentario.jpg");
+  background-position: 50% 57.9402%;
+  float: left;
+  height: 400px;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 55rem;
+
+  .comentario {
+    width: 100%;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &::after {
+      position: absolute;
+      font-size: 70px;
+      line-height: 50px;
+      font-family: "Material Icons";
+      color: #79a03f;
+      content: "\e244";
+      width: 80px;
+      height: 60px;
+      top: 14%;
+      right: 0;
+      left: 0;
+      margin: auto;
+      font-style: initial;
+    }
+    .textComentario {
+      width: 42%;
+      font-size: 14px;
+      margin-bottom: 1.5rem;
+      font-family: "Cinzel", serif;
+      font-weight: 600;
+      color: rgb(112, 102, 102);
+    }
+
+    .svgIcons {
+      position: absolute;
+      width: 168px;
+      height: 138px;
+      bottom: 10%;
+    }
+
+    .contenedorMarcador {
+      display: flex;
+      position: absolute;
+      bottom: 4%;
+      .marcador {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgb(150 150 150 / 37%);
+        margin: 0.4rem;
+
+        &.activo {
+          background-color: #79a03f;
+        }
+      }
+    }
+  }
+}
