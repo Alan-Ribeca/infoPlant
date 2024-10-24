@@ -38,7 +38,7 @@ export const Comentarios = () => {
   }, [comentarios.length]);
 
   return (
-    <section className="containerComentarios">
+    <aside className="containerComentarios">
       <div className="comentario">
         <p className="textComentario">{comentarios[index].comentario}</p>
         <h3 className="nameComentario">{comentarios[index].nombre}</h3>
@@ -70,6 +70,6 @@ export const Comentarios = () => {
           ))}
         </div>
       </div>
-    </section>
+    </aside>
   );
 };
