@@ -19,7 +19,7 @@ export const Navbar = () => {
           alt="logo de la web"
           className="imgLogo"
         />
-        <ul className="ulNavbar">
+        <ul className={buscador ? "ulNavbar corrido" : "ulNavbar"}>
           <li className="liNavbar">Inicio</li>
           <li className="liNavbar">Interior</li>
           <li className="liNavbar">Exterior</li>

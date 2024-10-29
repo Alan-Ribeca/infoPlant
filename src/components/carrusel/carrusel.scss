@@ -90,7 +90,7 @@
     position: absolute;
     top: 50%;
     z-index: 1;
-    color: black;
+    color: rgb(150, 150, 150);
     cursor: pointer;
     transition: color 0.3s ease;
 
@@ -117,5 +117,70 @@
     opacity: 0.4;
     font-weight: 400;
     font-family: "Times New Roman", Times, serif;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .containerCarrusel .carrusel {
+    .slide {
+      &.activo {
+        .imgActiva {
+          width: 432px;
+          height: 515px;
+          right: 14%;
+        }
+      }
+
+      .img {
+        width: 266px;
+        height: 355px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .containerCarrusel {
+    .carrusel {
+      .slide {
+        width: 24%;
+        height: 251px;
+
+        .img {
+          width: 287px;
+          height: 363px;
+          right: 34%;
+        }
+
+        &:nth-last-child(-n + 2) {
+          display: none;
+        }
+
+        &.activo {
+          width: 31%;
+          height: 408px;
+
+          .imgActiva {
+            width: 432px;
+            height: 515px;
+            right: 24%;
+          }
+        }
+      }
+    }
+
+    .tituloCuidados {
+      font-size: 6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .containerCarrusel .carrusel .slide {
+    &.activo {
+      .imgActiva {
+        right: 13%;
+      }
+    }
   }
 }

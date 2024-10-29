@@ -97,10 +97,22 @@
         }
 
         .guiaTexto {
-          font-size: 14px;
+          font-size: 16px;
           width: 85%;
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .infoContainer .containerImgs {
+    width: 53%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .infoContainer .imgInfo {
+    height: 289px;
   }
 }

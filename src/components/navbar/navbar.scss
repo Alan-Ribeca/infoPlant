@@ -120,3 +120,31 @@
     }
   }
 }
+
+@media screen and (max-width: 1500px) {
+  .navbar {
+    .containerNavbar {
+      width: 1125px;
+
+      .ulNavbar {
+        width: 37%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) { 
+  .navbar {
+    .containerNavbar {
+      width: 990px;
+
+      .ulNavbar {
+        width: 43%;
+        transition: all 0.3s ease-out;
+        &.corrido {
+          margin-right: 4rem;
+        }
+      }
+    }
+  }
+}

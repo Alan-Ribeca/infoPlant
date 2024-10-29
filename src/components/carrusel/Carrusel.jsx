@@ -16,16 +16,17 @@ export const Carrusel = () => {
     },
     {
       id: 3,
-      src: "../public/img/c3.png",
-      alt: "Img Monstera adansoni",
-      p: "Mostera adansoni",
-    },
-    { id: 4, src: "../public/img/c4.png", alt: "Img Musa", p: "Musa" },
-    {
-      id: 5,
       src: "../public/img/c5.png",
       alt: "Img Palo de agua",
       p: "Palo de agua",
+    },
+    { id: 4, src: "../public/img/c4.png", alt: "Img Musa", p: "Musa" },
+
+    {
+      id: 5,
+      src: "../public/img/mosteraP1.png",
+      alt: "Img Monstera adansoni",
+      p: "Mostera adansoni",
     },
   ]);
 
