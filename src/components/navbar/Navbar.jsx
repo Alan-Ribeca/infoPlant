@@ -27,7 +27,7 @@ export const Navbar = () => {
         </ul>
 
         <ul className="ulPerfil">
-          <li className="liPerfil">
+          <li className="liPerfil liLupa">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="21"

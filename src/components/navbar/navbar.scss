@@ -133,7 +133,7 @@
   }
 }
 
-@media screen and (max-width: 1300px) { 
+@media screen and (max-width: 1300px) {
   .navbar {
     .containerNavbar {
       width: 990px;
@@ -143,6 +143,30 @@
         transition: all 0.3s ease-out;
         &.corrido {
           margin-right: 4rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar {
+    .containerNavbar {
+      width: 800px;
+
+      .ulPerfil {
+        .liPerfil {
+          &.liLupa {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+
+      .ulNavbar {
+        width: 43%;
+        transition: all 0.3s ease-out;
+        &.corrido {
+          margin-right: 8rem;
         }
       }
     }

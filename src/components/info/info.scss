@@ -116,3 +116,29 @@
     height: 289px;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .infoContainer {
+    margin-top: 10.5rem;
+    flex-direction: column;
+
+    .containerImgs {
+      width: 79%;
+      margin: 0 auto;
+    }
+
+    .infoTexto {
+      width: 100%;
+      padding-left: 0;
+      .titleCuidado {
+        margin-top: 2rem;
+      }
+
+      .cuidadoGuia {
+        padding: 0;
+        max-width: 69%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

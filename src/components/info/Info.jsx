@@ -40,7 +40,7 @@ export const Info = () => {
                 id="Layer_1"
                 data-name="Layer 1"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 500 1000"
+                viewBox="0 -110 500 1000"
                 className="svgIcons"
               >
                 <defs>
@@ -62,7 +62,7 @@ export const Info = () => {
                 id="Layer_1"
                 data-name="Layer 1"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 700 1000"
+                viewBox="0 -100 700 1000"
                 className="svgIcons"
               >
                 <defs>
@@ -117,7 +117,7 @@ export const Info = () => {
             </li>
             <li className="liCuidados">
               <svg
-                viewBox="390 0 5 750"
+                viewBox="390 -70 5 750"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 className="svgIcons riego"
