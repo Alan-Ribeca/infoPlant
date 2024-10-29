@@ -145,3 +145,34 @@
     }
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .top {
+    min-height: 465px;
+    height: 40vh;
+    background-position: right;
+    margin-top: 3.5rem;
+
+    .containerTitle {
+      .titleImpresa {
+        font-size: 8rem;
+        left: 40%;
+        top: 12%;
+      }
+      .titleCursiva {
+        font-size: 3rem;
+        top: 31%;
+        left: 41%;
+      }
+      .titlePrincipal {
+        font-size: 3rem;
+        left: 46%;
+        top: 44%;
+      }
+      .btn {
+        right: 28%;
+        top: 76%;
+      }
+    }
+  }
+}
