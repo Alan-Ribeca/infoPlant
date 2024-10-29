@@ -109,7 +109,7 @@
       opacity: 0;
       transition: width 0.5s ease, opacity 0.5s ease;
       position: absolute;
-      top: 34%;
+      top: 31%;
       right: 5.5%;
       height: 1.6rem;
       padding: 0.5rem;
@@ -118,6 +118,10 @@
       outline: none;
       overflow: hidden;
     }
+  }
+
+  .containerMovil {
+    display: none;
   }
 }
 
@@ -168,6 +172,99 @@
         &.corrido {
           margin-right: 8rem;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .containerNavbar {
+    display: none !important;
+  }
+
+  .containerMovil {
+    display: block !important;
+
+    .contenedorElementos {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      position: relative;
+      box-shadow: 0px 16px 12px -9px rgb(110 73 73 / 20%);
+      -moz-box-shadow: 0px 16px 12px -9px rgb(110 73 73 / 20%);
+      -webkit-box-shadow: 0px 16px 12px -9px rgb(110 73 73 / 20%);
+      height: 83px;
+
+      .menuNav {
+        width: 7%;
+
+        &:hover {
+          cursor: pointer;
+          color: #93a267;
+        }
+      }
+      .imgLogo {
+        margin-left: 2rem;
+        width: 20%;
+        height: 81px;
+      }
+
+      .ulPerfilMovil {
+        position: relative;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        width: 6%;
+        padding-right: 0.5rem;
+
+        .liPerfilMovil {
+          &:hover {
+            color: #93a267;
+            cursor: pointer;
+          }
+          &.movilLupa {
+            padding-right: 0.5rem;
+            z-index: 1;
+          }
+
+          .lupaAbierta {
+            position: relative;
+            z-index: 1;
+            color: #93a267;
+          }
+        }
+      }
+
+      .inputBuscarMovil {
+        width: 0;
+        opacity: 0;
+        transition: width 0.5s ease, opacity 0.5s ease;
+        position: absolute;
+        top: 30%;
+        right: 5.3%;
+        height: 1.6rem;
+        padding: 0.5rem;
+        border-radius: 20px;
+        border: 1px solid #93a267;
+        outline: none;
+        overflow: hidden;
+      }
+
+      .inputBuscarActivoMovil {
+        position: absolute;
+        width: 200px;
+        opacity: 1;
+        transition: width 0.5s ease, opacity 0.5s ease;
+        position: absolute;
+        top: 30%;
+        right: 5.3%;
+        height: 1.6rem;
+        padding: 0.5rem;
+        border-radius: 20px;
+        border: 1px solid #93a267;
+        outline: none;
       }
     }
   }

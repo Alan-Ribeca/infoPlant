@@ -4,3 +4,9 @@
   width: 100%;
   position: relative;
 }
+
+@media screen and (max-width: 1050px) {
+  .header {
+    height: 50px;
+  }
+}
