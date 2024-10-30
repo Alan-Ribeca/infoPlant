@@ -148,3 +148,9 @@
     margin-top: 8.5rem;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .infoContainer .infoTexto .cuidadoGuia .gia .guiaTexto {
+    font-size: 14px;
+  }
+}

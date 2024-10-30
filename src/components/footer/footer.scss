@@ -168,3 +168,32 @@
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  .footer {
+    .unite {
+      padding-left: 1rem;
+    }
+
+    .containerTexto {
+      position: absolute;
+      top: 13%;
+    }
+
+    .containerInput {
+      bottom: 6%;
+
+      .input {
+        width: 247px;
+      }
+
+      .boton {
+        width: 120px;
+      }
+    }
+
+    .menus .redes {
+      width: 39%;
+    }
+  }
+}

@@ -262,3 +262,31 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .containerCarrusel {
+    .carrusel {
+      .slide {
+        width: 26%;
+        height: 170px;
+        &:nth-last-child(-n + 3) {
+          display: none;
+        }
+        &.activo {
+          width: 46%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .containerCarrusel {
+    .carrusel .slide {
+      width: 30%;
+    }
+    .tituloCuidados {
+      font-size: 3.5rem;
+    }
+  }
+}

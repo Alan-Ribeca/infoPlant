@@ -166,13 +166,29 @@
       }
       .titlePrincipal {
         font-size: 3rem;
-        left: 46%;
+        left: 45%;
         top: 44%;
       }
       .btn {
         right: 28%;
         top: 76%;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .top .containerTitle {
+    .titleImpresa {
+      left: 33%;
+    }
+
+    .titleCursiva {
+      left: 38.3%;
+    }
+
+    .titlePrincipal {
+      left: 38.3%;
     }
   }
 }
