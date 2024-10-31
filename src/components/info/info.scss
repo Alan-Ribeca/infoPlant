@@ -154,3 +154,18 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .infoContainer {
+    .imgInfoTop {
+      height: 397px;
+    }
+    .imgInfo {
+      height: 255px;
+    }
+  }
+
+  .infoTexto .cuidadoGuia {
+    max-width: 76%;
+  }
+}

@@ -180,15 +180,19 @@
 @media screen and (max-width: 800px) {
   .top .containerTitle {
     .titleImpresa {
-      left: 33%;
+      left: 25%;
     }
 
     .titleCursiva {
-      left: 38.3%;
+      left: 33.3%;
     }
 
     .titlePrincipal {
-      left: 38.3%;
+      left: 33.3%;
+    }
+
+    .btn {
+      right: 36%;
     }
   }
 }
