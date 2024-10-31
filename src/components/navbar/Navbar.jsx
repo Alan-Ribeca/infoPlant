@@ -76,7 +76,7 @@ export const Navbar = () => {
           <img
             src="../public/img/logo.png"
             alt="logo de la pagina"
-            className="imgLogo"
+            className={buscador ? "imgLogoCorrido" : "imgLogo"}
           />
           <ul className="ulPerfilMovil">
             <li className="liPerfilMovil movilLupa">

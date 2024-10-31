@@ -197,3 +197,47 @@
     }
   }
 }
+
+@media screen and (max-width: 700px) {
+  .footer {
+    .unite {
+      height: 154px;
+
+      .textoUnite {
+        font-size: 12px;
+      }
+    }
+    .containerInput {
+      .input {
+        width: 234px;
+        height: 44px;
+      }
+
+      .boton {
+        height: 44px;
+      }
+    }
+
+    .menus {
+      justify-content: space-evenly;
+      margin-bottom: 1rem;
+      .redes {
+        text-align: center;
+        .infoPag {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    .unite {
+      padding-left: 0.5rem;
+    }
+    .menus .redes .logosRedes .logo .logoSvg {
+      width: 24px;
+    }
+  }
+}

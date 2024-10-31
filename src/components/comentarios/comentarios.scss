@@ -92,3 +92,21 @@
     background-position: 50% -1.0598%;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .containerComentarios .comentario {
+    &::after {
+      top: 6%;
+    }
+
+    .textComentario {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .containerComentarios {
+    height: 375px;
+  }
+}

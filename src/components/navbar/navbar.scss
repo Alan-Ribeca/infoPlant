@@ -281,3 +281,21 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .containerMovil {
+    .contenedorElementos {
+      .imgLogoCorrido {
+        width: 27%;
+        height: 61px;
+        margin-right: 2.5rem;
+        transition: 0.3s all;
+      }
+      .imgLogo {
+        width: 27%;
+        height: 61px;
+        transition: 0.3s all;
+      }
+    }
+  }
+}

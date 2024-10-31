@@ -169,3 +169,36 @@
     max-width: 76%;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .infoContainer {
+    margin-top: 0;
+
+    .containerImgs {
+      width: 90%;
+    }
+
+    .infoTexto .cuidadoGuia {
+      max-width: 81%;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .infoContainer {
+    .containerImgs {
+      width: 95%;
+    }
+    .imgInfoTop {
+      height: 356px;
+    }
+
+    .imgInfo {
+      height: 220px;
+    }
+
+    .infoTexto .cuidadoGuia {
+      max-width: 86%;
+    }
+  }
+}

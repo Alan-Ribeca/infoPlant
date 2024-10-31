@@ -196,3 +196,60 @@
     }
   }
 }
+
+@media screen and (max-width: 700px) {
+  .top {
+    background-position: right;
+    min-height: 313px;
+    height: 27vh;
+    .containerTitle {
+      .titleImpresa {
+        left: 51%;
+        top: 14%;
+        font-size: 5rem;
+      }
+
+      .titleCursiva {
+        font-size: 2rem;
+        top: 32%;
+        left: 59.3%;
+      }
+
+      .titlePrincipal {
+        left: 49.3%;
+        top: 41%;
+        font-size: 2rem;
+      }
+      .btn {
+        top: 75%;
+        right: 19.5%;
+        font-size: 12px;
+        width: 9rem;
+        height: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top {
+    .containerTitle {
+      .titleImpresa {
+        left: 39%;
+      }
+
+      .titleCursiva {
+        left: 43.3%;
+      }
+
+      .titlePrincipal {
+        left: 43.3%;
+      }
+
+      .btn {
+        top: 74%;
+        right: 31.5%;
+      }
+    }
+  }
+}
