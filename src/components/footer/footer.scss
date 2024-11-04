@@ -16,8 +16,10 @@
 
     .textoUnite {
       font-size: 13px;
+      font-weight: 600;
       max-width: 65%;
       font-family: "Cinzel", serif;
+      color: rgb(112, 102, 102);
     }
   }
 
@@ -238,6 +240,50 @@
     }
     .menus .redes .logosRedes .logo .logoSvg {
       width: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    .unite {
+      .titleUnite {
+        font-size: 1.5rem;
+      }
+      .textoUnite {
+        max-width: 80%;
+      }
+    }
+    .containerInput {
+      right: 5%;
+
+      .input {
+        width: 229px;
+        height: 40px;
+      }
+
+      .boton {
+        width: 109px;
+        height: 40px;
+      }
+    }
+
+    .menus {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+
+      .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logosRedes {
+          display: flex;
+          padding-left: 2rem;
+        }
+      }
     }
   }
 }

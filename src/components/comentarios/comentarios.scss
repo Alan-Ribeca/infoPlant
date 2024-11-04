@@ -133,6 +133,8 @@
 @media screen and (max-width: 550px) {
   .containerComentarios {
     background-size: 116% 50%;
+    height: 378px;
+    background-position: 50% -4.0598%;
     .comentario {
       .textComentario {
         width: 62%;
@@ -142,7 +144,7 @@
       &::after {
         font-size: 44px;
         width: 45px;
-        top: 3%;
+        top: 7%;
       }
     }
   }
