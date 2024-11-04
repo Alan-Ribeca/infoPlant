@@ -130,3 +130,20 @@
     }
   }
 }
+@media screen and (max-width: 550px) {
+  .containerComentarios {
+    background-size: 116% 50%;
+    .comentario {
+      .textComentario {
+        width: 62%;
+        margin-bottom: 0.4rem;
+      }
+
+      &::after {
+        font-size: 44px;
+        width: 45px;
+        top: 3%;
+      }
+    }
+  }
+}

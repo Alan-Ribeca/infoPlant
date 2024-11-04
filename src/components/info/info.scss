@@ -202,3 +202,20 @@
     }
   }
 }
+
+@media screen and (max-width: 550px) {
+  .infoContainer {
+    .imgInfoTop {
+      height: 281px;
+    }
+    .imgInfo {
+      height: 186px;
+    }
+
+    .infoTexto .cuidadoGuia {
+      max-width: 100%;
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+  }
+}

@@ -364,3 +364,33 @@
     }
   }
 }
+
+@media screen and (max-width: 550px) {
+  .containerCarrusel {
+    height: 576px;
+    .carrusel {
+      padding-top: 8rem;
+
+      .slide {
+        &:nth-last-child(-n + 4) {
+          display: none;
+        }
+
+        &.activo {
+          width: 70%;
+          .imgActiva {
+            right: 29%;
+            width: 273px;
+            height: 312px;
+          }
+        }
+      }
+    }
+
+    .flechaDerecha,
+    .flechaIzquierda {
+      width: 55px;
+      height: 27px;
+    }
+  }
+}
