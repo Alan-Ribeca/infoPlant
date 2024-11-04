@@ -107,6 +107,26 @@
 
 @media screen and (max-width: 600px) {
   .containerComentarios {
-    height: 375px;
+    height: 321px;
+    background-position: 50% 26.9402%;
+    .comentario {
+      &::after {
+        font-size: 57px;
+        width: 58px;
+      }
+
+      .textComentario {
+        width: 52%;
+      }
+      .svgIcons {
+        width: 168px;
+        height: 96px;
+      }
+
+      .contenedorMarcador .marcador {
+        width: 8px;
+        height: 8px;
+      }
+    }
   }
 }

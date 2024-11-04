@@ -211,6 +211,11 @@
         height: 81px;
       }
 
+      .imgLogoCorrido {
+        width: 20%;
+        height: 81px;
+      }
+
       .ulPerfilMovil {
         position: relative;
         list-style: none;
@@ -288,13 +293,25 @@
       .imgLogoCorrido {
         width: 27%;
         height: 61px;
-        margin-right: 2.5rem;
+        margin-right: 5.5rem;
         transition: 0.3s all;
       }
       .imgLogo {
         width: 27%;
         height: 61px;
         transition: 0.3s all;
+      }
+
+      .ulPerfilMovil {
+        width: 8%;
+      }
+
+      .inputBuscarMovil {
+        right: 7%;
+      }
+
+      .inputBuscarActivoMovil {
+        right: 7%;
       }
     }
   }
