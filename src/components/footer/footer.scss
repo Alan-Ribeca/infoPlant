@@ -247,8 +247,10 @@
 @media screen and (max-width: 550px) {
   .footer {
     .unite {
+      height: 197px;
       .titleUnite {
         font-size: 1.5rem;
+        width: 97%;
       }
       .textoUnite {
         max-width: 80%;
@@ -283,6 +285,34 @@
           display: flex;
           padding-left: 2rem;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    margin-top: 37rem;
+    .unite {
+      height: 238px;
+    }
+
+    .containerTexto {
+      top: 9%;
+    }
+    .containerInput {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      right: 0;
+
+      .input {
+        margin-bottom: 0.5rem;
+      }
+
+      .boton {
+        margin: 0;
       }
     }
   }

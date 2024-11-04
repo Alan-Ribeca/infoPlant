@@ -291,9 +291,9 @@
   .containerMovil {
     .contenedorElementos {
       .imgLogoCorrido {
-        width: 27%;
-        height: 61px;
-        margin-right: 5.5rem;
+        width: 25%;
+        height: 50px;
+        margin-right: 9.5rem;
         transition: 0.3s all;
       }
       .imgLogo {
@@ -303,15 +303,16 @@
       }
 
       .ulPerfilMovil {
-        width: 8%;
+        width: auto;
+        padding-right: 0;
       }
 
       .inputBuscarMovil {
-        right: 7%;
+        right: 11%;
       }
 
       .inputBuscarActivoMovil {
-        right: 7%;
+        right: 11%;
       }
     }
   }

@@ -257,7 +257,7 @@
 @media screen and (max-width: 550px) {
   .top {
     min-height: 286px;
-
+    background-position: 70%;
     .containerTitle {
       .titleImpresa {
         left: 30%;
@@ -271,15 +271,16 @@
       }
 
       .titlePrincipal {
-        left: 41.3%;
+        left: 38.3%;
         top: 48%;
         font-size: 1.5rem;
       }
 
       .btn {
         top: 76%;
-        right: 25.5%;
+        right: 23.5%;
         width: 11rem;
+        box-shadow: 0px 16px 12px -9px rgba(110, 73, 73, 0.2);
       }
     }
   }

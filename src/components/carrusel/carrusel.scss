@@ -360,7 +360,7 @@
     }
 
     .tituloCuidados {
-      font-size: 3rem;
+      font-size: 2.8rem;
     }
   }
 }
@@ -391,6 +391,16 @@
     .flechaIzquierda {
       width: 55px;
       height: 27px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .containerCarrusel .carrusel .slide {
+    &.activo {
+      .imgActiva {
+        right: 19%;
+      }
     }
   }
 }

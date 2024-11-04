@@ -205,6 +205,10 @@
 
 @media screen and (max-width: 550px) {
   .infoContainer {
+    .containerImgs {
+      width: 100%;
+      padding-left: 0;
+    }
     .imgInfoTop {
       height: 281px;
     }
@@ -217,5 +221,16 @@
       margin: 0;
       padding-left: 1.5rem;
     }
+
+    .cuidadosP {
+      font-size: 13px;
+      padding-left: 0.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .infoContainer .infoTexto .cuidadoGuia {
+    padding-left: 0.5rem;
   }
 }
