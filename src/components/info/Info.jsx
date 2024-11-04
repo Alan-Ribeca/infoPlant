@@ -6,28 +6,28 @@ export const Info = () => {
       <section className="infoContainer">
         <article data-aos="fade-right" className="containerImgs">
           <img
-            src="../public/img/areca3.png"
+            src="../img/areca3.png"
             alt="img de la planta araca"
             className="imgInfoTop"
           />
           <img
-            src="../public/img/areca2.png"
+            src="../img/areca2.png"
             alt="img de la planta araca"
             className="imgInfoTop"
           />
 
           <img
-            src="../public/img/areca1.png"
+            src="../img/areca1.png"
             alt="img de la planta araca"
             className="imgInfo"
           />
           <img
-            src="../public/img/areca4.png"
+            src="../img/areca4.png"
             alt="img de la planta araca"
             className="imgInfo"
           />
           <img
-            src="../public/img/areca5.png"
+            src="../img/areca5.png"
             alt="img de la planta araca"
             className="imgInfo"
           />
@@ -155,7 +155,7 @@ export const Info = () => {
             </li>
             <li className="gia">
               <img
-                src="../public/img/riego.png"
+                src="../img/riego.png"
                 alt="svg de una planta regandose"
                 className="iconGuia"
               />
@@ -168,7 +168,7 @@ export const Info = () => {
             </li>
             <li className="gia">
               <img
-                src="../public/img/temperatura.png"
+                src="../img/temperatura.png"
                 alt="svg de temperatura"
                 className="iconGuia"
               />
@@ -205,7 +205,7 @@ export const Info = () => {
             </li>
             <li className="gia">
               <img
-                src="../public/img/crecimiento.png"
+                src="../img/crecimiento.png"
                 alt="svg de crecimiento"
                 className="iconGuia"
               />
@@ -216,7 +216,7 @@ export const Info = () => {
             </li>
             <li className="gia">
               <img
-                src="../public/img/huellaDigital.png"
+                src="../img/huellaDigital.png"
                 alt="svg de icon de huella digital"
                 className="iconGuia"
               />

@@ -4,27 +4,27 @@ export const Carrusel = () => {
   const [slides, setSlides] = useState([
     {
       id: 1,
-      src: "../public/img/c1.png",
+      src: "../img/c1.png",
       alt: "Img Plamera areca",
       p: "Plamera areca",
     },
     {
       id: 2,
-      src: "../public/img/c2.png",
+      src: "../img/c2.png",
       alt: "Img Cuna de moises",
       p: "Cuna de moises",
     },
     {
       id: 3,
-      src: "../public/img/c5.png",
+      src: "../img/c5.png",
       alt: "Img Palo de agua",
       p: "Palo de agua",
     },
-    { id: 4, src: "../public/img/c4.png", alt: "Img Musa", p: "Musa" },
+    { id: 4, src: "../img/c4.png", alt: "Img Musa", p: "Musa" },
 
     {
       id: 5,
-      src: "../public/img/mosteraP1.png",
+      src: "../img/mosteraP1.png",
       alt: "Img Monstera adansoni",
       p: "Mostera adansoni",
     },
