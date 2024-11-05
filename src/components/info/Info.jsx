@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import "./info.scss";
 
-export const Info = () => {
+export const Info = ({datos}) => {
+  console.log(datos)
   return (
     <>
       <section className="infoContainer">

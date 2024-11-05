@@ -12,7 +12,7 @@ export const Navbar = () => {
   };
 
   return (
-    <navbar className="navbar">
+    <nav className="navbar">
       <div data-aos="fade-right" className="containerNavbar">
         <img
           src="../img/logo.png"
@@ -113,6 +113,6 @@ export const Navbar = () => {
           />
         </div>
       </div>
-    </navbar>
+    </nav>
   );
 };
