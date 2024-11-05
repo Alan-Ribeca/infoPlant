@@ -317,3 +317,38 @@
     }
   }
 }
+
+@media screen and (max-width: 360px) {
+  .containerMovil .contenedorElementos {
+    .imgLogoCorrido {
+      display: none;
+    }
+
+    .inputBuscarMovil {
+      right: 12%;
+    }
+    .inputBuscarActivoMovil {
+      right: 12%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .containerMovil .contenedorElementos {
+    .menuNav {
+      width: 29px;
+      height: 29px;
+    }
+    .imgLogo {
+      width: 36%;
+      margin: 0;
+    }
+
+    .inputBuscarMovil {
+      right: 14%;
+    }
+    .inputBuscarActivoMovil {
+      right: 14%;
+    }
+  }
+}

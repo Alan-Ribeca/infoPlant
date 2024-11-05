@@ -404,3 +404,13 @@
     }
   }
 }
+
+@media screen and (max-width: 360px) {
+  .containerCarrusel .carrusel {
+    .slide {
+      &.activo {
+        width: 79%;
+      }
+    }
+  }
+}

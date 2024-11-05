@@ -285,3 +285,24 @@
     }
   }
 }
+
+@media screen and (max-width: 360px) {
+  .top {
+    background-position: 54%;
+
+    .containerTitle {
+      .titleImpresa {
+        font-size: 4rem;
+        left: 25%;
+        top: 14%;
+      }
+
+      .titleCursiva {
+        top: 33%;
+      }
+      .btn {
+        right: 19.5%;
+      }
+    }
+  }
+}
