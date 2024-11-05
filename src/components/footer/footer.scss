@@ -320,3 +320,24 @@
     }
   }
 }
+
+@media screen and (max-width: 360px) {
+  .footer {
+    .unite {
+      height: 255px;
+    }
+    .menus {
+      justify-content: normal;
+      justify-items: baseline;
+      gap: 0;
+
+      .redes {
+        align-items: baseline;
+
+        .logosRedes {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
