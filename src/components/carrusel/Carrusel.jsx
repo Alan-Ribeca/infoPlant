@@ -74,6 +74,9 @@ export const Carrusel = () => {
       p: "Cuna de moises",
       nombre: "Cuna de moises",
       imagenes: [
+        { src: "../img/cuna3.png", alt: "img de la planta Cuna de Moises" },
+        { src: "../img/cuna5.png", alt: "img de la planta Cuna de Moises" },
+        { src: "../img/cuna4.png", alt: "img de la planta Cuna de Moises" },
         { src: "../img/cuna1.png", alt: "img de la planta Cuna de Moises" },
         { src: "../img/cuna2.png", alt: "img de la planta Cuna de Moises" },
       ],
@@ -114,8 +117,11 @@ export const Carrusel = () => {
       p: "Palo de agua",
       nombre: "Palo de agua",
       imagenes: [
-        { src: "../img/paloagua1.png", alt: "img de la planta Palo de Agua" },
-        { src: "../img/paloagua2.png", alt: "img de la planta Palo de Agua" },
+        { src: "../img/palo4.png", alt: "img de la planta Palo de Agua" },
+        { src: "../img/palo2.png", alt: "img de la planta Palo de Agua" },
+        { src: "../img/palo1.png", alt: "img de la planta Palo de Agua" },
+        { src: "../img/palo5.png", alt: "img de la planta Palo de Agua" },
+        { src: "../img/palo3.png", alt: "img de la planta Palo de Agua" },
       ],
       cuidadosBasicos: [
         { nivelCuidado: "Fácil de cuidar" },
@@ -152,6 +158,9 @@ export const Carrusel = () => {
       nombre: "Musa",
       imagenes: [
         { src: "../img/musa1.png", alt: "img de la planta Musa" },
+        { src: "../img/musa5.png", alt: "img de la planta Musa" },
+        { src: "../img/musa4.png", alt: "img de la planta Musa" },
+        { src: "../img/musa3.png", alt: "img de la planta Musa" },
         { src: "../img/musa2.png", alt: "img de la planta Musa" },
       ],
       cuidadosBasicos: [
@@ -178,7 +187,6 @@ export const Carrusel = () => {
         },
       ],
     },
-
     {
       id: 5,
       src: "../img/mosteraP1.png",
@@ -187,11 +195,23 @@ export const Carrusel = () => {
       nombre: "Monstera adansoni",
       imagenes: [
         {
-          src: "../img/monstera1.png",
+          src: "../img/monste5.png",
           alt: "img de la planta Monstera Adansoni",
         },
         {
-          src: "../img/monstera2.png",
+          src: "../img/monste2.png",
+          alt: "img de la planta Monstera Adansoni",
+        },
+        {
+          src: "../img/monste1.png",
+          alt: "img de la planta Monstera Adansoni",
+        },
+        {
+          src: "../img/monste4.png",
+          alt: "img de la planta Monstera Adansoni",
+        },
+        {
+          src: "../img/monste3.png",
           alt: "img de la planta Monstera Adansoni",
         },
       ],
