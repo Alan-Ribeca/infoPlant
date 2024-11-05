@@ -1,8 +1,25 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import "./info.scss";
 
-export const Info = ({datos}) => {
-  console.log(datos)
+export const Info = ({ datos }) => {
+  {
+    datos.map((cuidado) => {
+      const {
+        nivelCuidado,
+        aire,
+        riego,
+        luz,
+        riegoAvanzado,
+        temperatura,
+        tips,
+        crecimiento,
+        apodos,
+        nombre,
+      } = cuidado;
+      console.log(nivelCuidado, aire, riego);
+    });
+  }
   return (
     <>
       <section className="infoContainer">
@@ -230,6 +247,7 @@ export const Info = ({datos}) => {
           </ul>
         </article>
       </section>
+      ;
     </>
   );
 };
