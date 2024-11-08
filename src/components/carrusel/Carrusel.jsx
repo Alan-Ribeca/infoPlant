@@ -245,6 +245,20 @@ export const Carrusel = () => {
                   alt={slide.alt}
                   className={`img ${index === 0 ? "imgActiva" : ""}`}
                 />
+                <div className={` ${index === 0 ? "puntosContenedor" : ""}`}>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                  <span className="puntosCarrusel"></span>
+                </div>
                 <div className="info">
                   <p className="name">{slide.p}</p>
                   {index === 0 ? (

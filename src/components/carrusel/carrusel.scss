@@ -21,22 +21,50 @@
       &.activo {
         width: 25%;
         height: 405px;
-        box-shadow: 0 1px 20px 2px rgb(47 74 5 / 32%);
-        -moz-box-shadow: 0 1px 20px 2px rgb(47 74 5 / 32%);
-        -webkit-box-shadow: 0 1px 20px 2px rgb(47 74 5 / 32%);
+        box-shadow: 0 4px 12px -4px rgb(14 15 14 / 26%);
+        -moz-box-shadow: 0 4px 12px -4px rgb(14 15 14 / 26%);
+        -webkit-box-shadow: 0 4px 12px -4px rgb(14 15 14 / 26%);
+        background: linear-gradient(
+          40deg,
+          rgba(178, 255, 133, 0) 54%,
+          rgba(12, 38, 12, 0.2117647059) 0%
+        );
         .imgActiva {
           width: 460px;
           height: 550px;
           right: 28%;
           bottom: 0%;
-          filter: drop-shadow(6px 6px 4px rgba(4, 12, 1, 0.32));
+          filter: drop-shadow(4px 2px 4px rgba(4, 12, 1, 0.12));
           transition: width 0.8s ease, height 0.8s ease;
+        }
+
+        .puntosContenedor {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr 1fr;
+          width: 16%;
+          height: 15%;
+          position: absolute;
+          top: 14%;
+          right: 8%;
+          gap: 0.5rem;
+
+          .puntosCarrusel {
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: rgb(255 255 255 / 65%);
+          }
         }
 
         .info {
           position: absolute;
-          right: 10%;
-          bottom: 8%;
+          right: 12%;
+          bottom: 3%;
+          height: 17%;
+          .name {
+            font-family: "Cinzel", serif;
+          }
         }
       }
 
@@ -46,7 +74,7 @@
         right: 28%;
         width: 319px;
         height: 422px;
-        filter: drop-shadow(6px 6px 4px rgba(4, 12, 1, 0.32));
+        filter: drop-shadow(4px 2px 4px rgba(4, 12, 1, 0.12));
         transition: width 0.8s ease, height 0.8s ease;
       }
 
@@ -62,12 +90,16 @@
 
         .btnCarrusel {
           border: none;
-          background-color: transparent;
+          background-color: #0c260c36;
           color: rgb(121, 160, 63);
           font-size: 14px;
           display: flex;
           align-items: center;
           cursor: pointer;
+          height: 38px;
+          width: 118px;
+          justify-content: center;
+          color: white;
 
           &:hover {
             .flechaBtn {
@@ -313,15 +345,29 @@
         &.activo {
           width: 50%;
           height: 229px;
-
+          background: linear-gradient(
+            31deg,
+            rgba(178, 255, 133, 0) 55%,
+            rgba(12, 38, 12, 0.2117647059) 0%
+          );
           .imgActiva {
             right: 19%;
             width: 332px;
             height: 396px;
           }
 
-          .info .name {
-            font-size: 14px;
+          .info {
+            height: 23%;
+            right: 11%;
+            bottom: 3%;
+            .name {
+              font-size: 14px;
+            }
+
+            .btnCarrusel {
+              height: 31px;
+              width: 109px;
+            }
           }
         }
       }
@@ -378,10 +424,19 @@
 
         &.activo {
           width: 70%;
+          background: linear-gradient(
+            27deg,
+            rgba(178, 255, 133, 0) 54%,
+            rgba(12, 38, 12, 0.2117647059) 0%
+          );
           .imgActiva {
             right: 29%;
             width: 273px;
             height: 312px;
+          }
+
+          .info {
+            right: 10%;
           }
         }
       }
